@@ -1,0 +1,64 @@
+# 🐺 LXR Voice Range - Git Ignore Rules
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.editorconfig
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Node modules (if any build tools used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts (if any)
+dist/
+build/
+*.zip
+*.rar
+*.7z
+
+# Test files
+test/
+tests/
+*.test.lua
+
+# Development
+.development
+.dev
+*.dev.lua
+
+# Screenshots (tracked separately in docs/assets/)
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/assets/screenshots/*.png
+!docs/assets/screenshots/*.jpg
+
+# Cache
+.cache/
+cache/
+
+# Private/Local
+.private/
+.local/
+local_config.lua
